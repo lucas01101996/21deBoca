@@ -1,0 +1,71 @@
+:root{
+    --color-dark:  #161616;
+    --color-ocean:  #416dea;
+    --color-grass: #3dd28d;
+    --color-snow: #FFFFFF;
+    --color-salmon: #F32C52;
+    --color-sun: #feee7d;
+    --color-alge: #7999a9;
+    --color-flower: #353866;
+    --color-smoke: #e4e4e4;
+    --color-cinza:  #535151e0;
+    
+}
+
+body{
+    background-color: var(--color-dark);
+}
+
+h1, h2,h3{ /*titulos*/
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    color: var(--color-dark);
+}
+
+#quadrado{
+    background-color: rgb(231, 245, 245);
+    width: 800px;
+    height: 200px; /* A mágica está aqui */
+    padding: 50px;
+    margin-left: 250px;
+    margin-top: 110px;
+    border-radius: 40px;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    border: var(--color-flower) solid 15px;
+}
+
+#options{
+    width: 150px;
+    margin: 50px;
+    line-height: 100px;
+    color: black;
+    font-size: 25px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+#options > a{  /*filhos de options*/
+    background-color: var(--color-cinza);
+    border-radius: 10px;
+    margin-left: 10px;
+    padding: 10px;
+
+}
+
+.single , .multi{
+    color: var(--color-sun);
+}
+
+.single:hover{ /*quando passar o mouse*/
+    border: 2px solid rgb(10, 9, 10);
+    color: black;
+}
+
+.multi:hover{
+    border: 2px solid rgb(10, 9, 10);
+    color: black;
+
+}

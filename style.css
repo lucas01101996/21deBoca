@@ -1,0 +1,58 @@
+body{
+    background-color:#161616;
+}
+h1{
+    text-align: center;
+    color: rgb(245, 243, 239);
+}
+
+#all-box{
+    background-color: rgb(231, 245, 245);
+    width: 800px;
+    height: 200px; /* A mágica está aqui */
+    padding: 50px;
+    margin-left: 250px;
+    margin-top: 90px;
+    border-radius: 40px;
+    text-align: center;
+    justify-content: center;
+    border: #353866 solid 15px;
+    display: grid;
+}
+
+#lance{
+    padding-top: 70px;
+}
+#lance > b{
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+#lance button{
+    background-color:#a0bb08;
+    width: 8vw;
+    height: 5vh;
+    border: solid black 3px;
+    cursor: pointer;
+    font-weight: 800;
+    border-radius: 10px;
+}
+
+#lance button:hover{
+    background-color: black;
+    border: solid #a0bb08 3px;
+    color: whitesmoke;
+}
+
+#lance button:focus{
+    background-color: rgb(4, 3, 65);
+    border: solid #a0bb08 3px;
+    color: whitesmoke;
+}
+
+#pontuacao{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    color: #790303;
+    font-weight: 800;
+}
